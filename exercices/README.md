@@ -1,17 +1,17 @@
 # Conception SID
 
-Ce répertoire contient les datasets utilisés pendant le cours de Conception SID à l'ORT de Montreuil.
+This repository contains the datasets used during the Conception SID course at the ORT of Montreuil.
 
-Pour chacun des datasets voici les questions auxquels je vous propose de répondre.
+For each of the datasets here are the questions you are asked to answer.
 
 ### dataset-1 & dataset-2
 
-- Quelles sont les totaux des ventes journalières de chacun des 2 produits les plus vendus ?
+- What are the daily totals of sales of each of the 2 most sold products ?
 
-1. Faites l'analyse des données en utilisant les fonctionnalités de Google Sheet.
-2. Cette fois-ci, faites l'analyse en utilisant le langage de programmation dans lequel vous êtes le plus à l'aise.
+1. Analyse the data using Google Sheet features.
+2. This time, do the analysis using the programming language in which you are most comfortable.
 
-Dans tous les cas, vous devez fournir un fichier csv contenant les résultats sous ce format.
+In all cases, you must provide a csv file containing the results in this format.
 
 ```csv
 sku,sun,mon,tue,wed,thu,fri,sat,total
@@ -21,12 +21,12 @@ sku,sun,mon,tue,wed,thu,fri,sat,total
 
 ### dataset-3
 
-- Quels sont les 2 produits que les femmes achètent le plus le mercredi ?
-- Combien dépensent en moyenne les hommes les samedi après midi?
-- Comparez les produits qu'achètent les hommes et les femmes entre 17h et 21h ?
-- Quels sont les 3 mois de l'année qui rapportent le plus de chiffres d'afffaire ?
+- What are the 2 products that women buy the most on wednesday ?
+- How much men spend on average on saturday afternoon ?
+- Compare the products bought by women and men between 17h and 21h ?
+- What are the 3 months of the year that bring the most revenue ?
 
-Prix unitaires des produits
+Unit prices of products
 
 | sku    | unit-price |
 | ------ | ---------- |
@@ -43,21 +43,21 @@ Prix unitaires des produits
 
 ### dataset-4
 
-Vous êtes Business Analyst dans une entreprise qui fournit des ingrédients de repas dans les hotels dans le monde.
+You are Business Analyst for a company that provides ingredients for meals in hotels around the world.
 
-`dataset-4.csv` contient la liste de tous les contrats que vous avez déjà réalisés ainsi que les ingredients que vous avez déjà vendus.
+`dataset-4.csv` contains the list of all contracts you have already made as well as the ingredients you have already sold.
 
-Dès que vous avez déjà vendu un ingrédient à un hotel, vous disposez de la licence vous permettant de vendre ce même ingrédient à d'autres hotels.
+When you have already sold an ingredient to an hotel, you have the license allowing you to sell the same ingredient to other hotels.
 
-`leads.db` est une base de données de potentiels hotels que vous pouvez contactez en vue de leur vendre des ingrédients que vous avez vendu à d'autres hotels.
+`leads.db` is a database of potential hotels that you can contact in order to sell them ingredients that you have sold to other hotels.
 
-Voici le schéma de la base de donnée:
+Here is the database schema:
 
 ![Leads](leads-schema.png)
 
-#### Votre mission:
+#### Your mission:
 
-L'équipe Commercial a besoin de savoir quels sont les hotels à contacter pour leur vendre les ingrédients dont l'entreprise dispose une licence.
+The Commercial team needs to know which hotels to contact to sell the ingredients for which the company has a license.
 
 ### dataset-5
 

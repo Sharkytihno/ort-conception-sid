@@ -63,7 +63,7 @@ The Commercial team needs to know which hotels to contact to sell the ingredient
 
 You are Business Analyst for a tourism agency.
 
-You have been given the dataset-5 in sql, json and xml.
+You have been given the `dataset-5` in sql, json and xml.
 
 #### Your mission
 

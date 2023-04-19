@@ -21,10 +21,10 @@ sku,sun,mon,tue,wed,thu,fri,sat,total
 
 ### dataset-3
 
-- What are the 2 products that women buy the most on wednesday ?
-- How much men spend on average on saturday afternoon ?
-- Compare the products bought by women and men between 17h and 21h ?
-- What are the 3 months of the year that bring the most revenue ?
+1. On Wednesdays, what are the top 2 things that women usually buy?
+2. What is the average amount of money men spend on Saturday afternoons?
+3. How do the products purchased by men and women compare from 5 pm to 9 pm?
+4. Which are the three months of the year with the highest revenue?
 
 Unit prices of products
 
@@ -43,13 +43,11 @@ Unit prices of products
 
 ### dataset-4
 
-You are Business Analyst for a company that provides ingredients for meals in hotels around the world.
+As a Business Analyst for a company that supplies ingredients for hotel meals worldwide, you'll work with two data sets.
 
-`dataset-4.csv` contains the list of all contracts you have already made as well as the ingredients you have already sold.
+Firstly, `dataset-4.csv` includes a record of all the contracts and ingredient sales to hotels that your organization has made so far. When an ingredient is sold to one hotel, you're permitted to sell it to other hotels too.
 
-When you have already sold an ingredient to an hotel, you have the license allowing you to sell the same ingredient to other hotels.
-
-`leads.db` is a database of potential hotels that you can contact in order to sell them ingredients that you have sold to other hotels.
+In addition to this, there's a second database, `leads.db`, that contains contact information for prospective hotels that might be interested in purchasing ingredients from you. These leads may be interested in ingredients that your company is already selling to other hotels.
 
 Here is the database schema:
 
